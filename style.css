@@ -5,6 +5,7 @@
 .first-section {
     background-image: url('./images/first-section-bg.png');
     background-repeat: no-repeat;
+    background-size: cover;
     height: 100vh;
 }
 .row {
