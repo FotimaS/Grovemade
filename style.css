@@ -17,7 +17,7 @@
     background-size: cover;
     height: 100vh;
 }
-.tenth-section {
+.tenth-section .container {
     background-color: #9AA8B1;
     height: 400px;
 }
@@ -33,4 +33,7 @@
 }
 .footer {
     background-color: #F9F9F9;
+}
+.row {
+    row-gap: 15px;
 }
