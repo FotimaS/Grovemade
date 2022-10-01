@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url(./fonts/Roboto-Regular.ttf);
+}
+.first-section {
+    background-image: url('./images/first-section-bg.png');
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.row {
+    margin-bottom: 130px;
+}
+.sixth-section {
+    background-image: url('./images/section-center-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.tenth-section {
+    background-color: #9AA8B1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 1340px;
+    margin: 0 70px;
+}
+.tenth-section {
+    margin-bottom: 39px;
+}
+.ftr-subtitle {
+    color: #A0A0A0;
+}
+.ftr-block {
+    width: 82px;
+    height: 82px;
+}
+.footer {
+    background-color: #F9F9F9;
+}
