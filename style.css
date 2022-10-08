@@ -101,3 +101,32 @@ color: #000000;
     text-decoration: none;
     color: #000000;
 }
+
+@media (max-width:1200px) {
+    .images {
+        max-width: 990px;
+        width: 100%;
+    }
+}
+@media (max-width:1000px) {
+    .th-btn {
+        margin-bottom: 30px;
+    }
+    .ipad {
+        max-width: 500px;
+        width: 100%;
+    }
+}
+@media (max-width:460px) {
+    .footer {
+        flex-wrap: wrap;
+    }
+}
+@media (max-width:350px) {
+    .ftr-info {
+        gap: 5px;
+    }
+    .collapse {
+        gap: 10px;
+    }
+}
