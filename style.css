@@ -130,3 +130,14 @@ color: #000000;
         gap: 10px;
     }
 }
+@media (max-width:325px) {
+    .sixth-section {
+        height: 45vh;
+    }
+    .first-section {
+        height: 45vh;
+    }
+    .tenth-section .container {
+        height: 310px;
+    }
+}
