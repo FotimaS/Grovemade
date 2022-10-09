@@ -140,4 +140,7 @@ color: #000000;
     .tenth-section .container {
         height: 310px;
     }
+    .ftr-info {
+        flex-wrap: wrap;
+    }
 }
