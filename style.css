@@ -54,6 +54,7 @@
 .link {
     list-style: none;
     margin-bottom: 84px;
+    line-height: 40px;
 }
 .link-item {
     width: 160px;
@@ -101,6 +102,9 @@ color: #000000;
     text-decoration: none;
     color: #000000;
 }
+.footer__btn {
+    z-index: 10;
+}
 
 @media (max-width:1200px) {
     .images {
@@ -142,5 +146,20 @@ color: #000000;
     }
     .ftr-info {
         flex-wrap: wrap;
+    }
+    .footer-link {
+        flex-wrap: wrap;
+    }
+    .link {
+        margin-bottom: 20px;    
+    }
+    .ftr-info {
+        justify-content: center;
+    }
+    .tenth-section {
+        margin-bottom: 0;
+    }
+    .nav-link {
+        margin-top: 10px;
     }
 }
